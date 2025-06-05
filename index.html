@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Engineering Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Automation Engineering Hub</h1>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#automation">Automation</a></li>
+                    <li><a href="#mechanical">Mechanical</a></li>
+                    <li><a href="#robotics">Robotics</a></li>
+                    <li><a href="#programming">Programming</a></li>
+                    <li><a href="#future-projects" class="highlight-btn">Future Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Advancing Automation Engineering</h1>
+            <p class="animate-text delay-1">Explore tools, technologies, and resources for automation, mechanical engineering, robotics, and programming</p>
+            <a href="#automation" class="cta-button animate-text delay-2">Explore Now</a>
+        </div>
+        <div class="hero-background">
+            <div class="circuit-animation"></div>
+        </div>
+    </section>
+
+    <!-- Automation Engineering Section -->
+    <section id="automation" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h2>Automation Engineering Tools & Technologies</h2>
+            </div>
+            <p class="section-intro">Discover the essential components and technologies driving modern automation systems across industries.</p>
+            
+            <div class="cards-container">
+                <!-- PLC Card -->
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h3>Programmable Logic Controllers (PLCs)</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Industrialized computer systems that perform complex applications in automation with components including:</p>
+                        <ul>
+                            <li>Central processing units</li>
+                            <li>Input/output (I/O) terminals or cards</li>
+                            <li>Power supplies</li>
+                            <li>Programming interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="expand-btn" data-target="plc-details">Learn More</button>
+                    </div>
+                    <div id="plc-details" class="expanded-content">
+                        <p>PLCs serve as the backbone of process automation in industrial settings. They are designed to withstand harsh environments and provide reliable control for manufacturing processes. Modern PLCs feature advanced networking capabilities, allowing them to communicate with other systems and integrate with enterprise-level software.</p>
+                        <div class="tech-diagram">
+                            <div class="diagram-animation plc-diagram"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Robotics Card -->
+                <div class="card fade-in delay-1">
+                    <div class="card-header">
+                        <h3>Robotics Systems</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Versatile, programmable machines that complete critical tasks in manufacturing and beyond:</p>
+                        <ul>
+                            <li>Industrial robots for welding, painting, assembly</li>
+                            <li>Collaborative robots (cobots) for human-machine interaction</li>
+                            <li>Mobile robots for material transport</li>
+                            <li>Pick and place systems for packaging and sorting</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="expand-btn" data-target="robotics-details">Learn More</button>
+                    </div>
+                    <div id="robotics-details" class="expanded-content">
+                        <p>Robotics systems have revolutionized manufacturing by automating repetitive and dangerous tasks. Modern robots feature advanced sensors, vision systems, and AI capabilities that allow them to adapt to changing conditions and work safely alongside humans.</p>
+                        <div class="tech-diagram">
+                            <div class="diagram-animation robotics-diagram"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IIoT Card -->
+                <div class="card fade-in delay-2">
+                    <div class="card-header">
+                        <h3>Industrial Internet of Things (IIoT)</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>A vast ecosystem connecting smart sensors and devices:</p>
+                        <ul>
+                            <li>Smart sensors and actuators</li>
+                            <li>Gateway devices for data collection</li>
+                            <li>Cloud connectivity for remote monitoring</li>
+                            <li>Edge computing for local processing</li>
+                            <li>Real-time analytics platforms</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <button class="expand-btn" data-target="iiot-details">Learn More</button>
+                    </div>
+                    <div id="iiot-details" class="expanded-content">
+                        <p>The Industrial Internet of Things (IIoT) connects machines, advanced analytics, and people to improve productivity and efficiency in manufacturing and industrial processes. IIoT enables predictive maintenance, remote monitoring, and data-driven decision making.</p>
+                        <div class="tech-diagram">
+                            <div class="diagram-animation iiot-diagram"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <!-- Control Systems Card -->
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h3>Control Systems</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Automatic control systems that achieve specific objectives under constraints:</p>
+                        <ul>
+                            <li>Feedback control loops</li>
+                            <li>PID controllers</li>
+                            <li>Motion control systems</li>
+                            <li>Distributed control systems (DCS)</li>
+                            <li>Advanced process control (APC)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Machine Vision Card -->
+                <div class="card fade-in delay-1">
+                    <div class="card-header">
+                        <h3>Machine Vision</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Systems that grant computers the ability to "see" and interpret visual information:</p>
+                        <ul>
+                            <li>High-resolution cameras</li>
+                            <li>Image processing software</li>
+                            <li>Pattern recognition algorithms</li>
+                            <li>Quality inspection systems</li>
+                            <li>Barcode and QR code readers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- AI and ML Card -->
+                <div class="card fade-in delay-2">
+                    <div class="card-header">
+                        <h3>AI and Machine Learning</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Intelligent systems that enhance industrial operations:</p>
+                        <ul>
+                            <li>Predictive maintenance algorithms</li>
+                            <li>Anomaly detection systems</li>
+                            <li>Process optimization</li>
+                            <li>Quality control automation</li>
+                            <li>Decision support systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Engineering Section -->
+    <section id="mechanical" class="section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h2>Mechanical Engineering for Automation</h2>
+            </div>
+            <p class="section-intro">Explore the essential tools and technologies that mechanical engineers use in automation and robotics applications.</p>
+            
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="cad-cam">CAD/CAM Software</button>
+                    <button class="tab-btn" data-tab="fea">FEA Software</button>
+                    <button class="tab-btn" data-tab="measurement">Measurement Tools</button>
+                    <button class="tab-btn" data-tab="manufacturing">Manufacturing</button>
+                </div>
+                
+                <div class="tab-content active" id="cad-cam">
+                    <h3>CAD/CAM Software</h3>
+                    <div class="content-columns">
+                        <div class="content-col">
+                            <p>Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) software are fundamental tools for mechanical engineers:</p>
+                            <ul>
+                                <li>AutoCAD for 2D drafting and design</li>
+                                <li>SolidWorks for 3D modeling and simulation</li>
+                                <li>Fusion 360 for integrated design and manufacturing</li>
+                                <li>CATIA for complex surface modeling</li>
+                                <li>Creo for parametric modeling</li>
+                            </ul>
+                        </div>
+                        <div class="content-col">
+                            <div class="tech-visual">
+                                <div class="cad-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="fea">
+                    <h3>Finite Element Analysis (FEA) Software</h3>
+                    <div class="content-columns">
+                        <div class="content-col">
+                            <p>FEA software helps engineers determine how products react to real-world stresses:</p>
+                            <ul>
+                                <li>ANSYS for comprehensive structural analysis</li>
+                                <li>Autodesk Inventor for integrated design and analysis</li>
+                                <li>Abaqus for advanced non-linear analysis</li>
+                                <li>COMSOL Multiphysics for coupled physics simulation</li>
+                                <li>SimScale for cloud-based simulation</li>
+                            </ul>
+                        </div>
+                        <div class="content-col">
+                            <div class="tech-visual">
+                                <div class="fea-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="measurement">
+                    <h3>Precision Measurement Tools</h3>
+                    <div class="content-columns">
+                        <div class="content-col">
+                            <p>Accurate measurement is critical in mechanical engineering:</p>
+                            <ul>
+                                <li>Coordinate Measuring Machines (CMMs) for precise measurements</li>
+                                <li>Digital calipers with 0.01mm accuracy</li>
+                                <li>Micrometers for ultra-precise measurements</li>
+                                <li>Laser measurement systems</li>
+                                <li>Surface roughness testers</li>
+                            </ul>
+                        </div>
+                        <div class="content-col">
+                            <div class="tech-visual">
+                                <div class="measurement-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="manufacturing">
+                    <h3>Manufacturing Technologies</h3>
+                    <div class="content-columns">
+                        <div class="content-col">
+                            <p>Advanced manufacturing technologies for automation:</p>
+                            <ul>
+                                <li>3D Printing for rapid prototyping and production</li>
+                                <li>CNC Machining Centers for precision manufacturing</li>
+                                <li>Vibration Analysis Tools for system optimization</li>
+                                <li>Material Testing Equipment for quality control</li>
+                                <li>Robotics Integration Tools for automated production</li>
+                            </ul>
+                        </div>
+                        <div class="content-col">
+                            <div class="tech-visual">
+                                <div class="manufacturing-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Robotics Systems Section -->
+    <section id="robotics" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h2>Robotics Systems</h2>
+            </div>
+            <p class="section-intro">Discover the key components and technologies that power modern robotics systems in automation.</p>
+            
+            <div class="interactive-display">
+                <div class="robot-visualization">
+                    <div class="robot-model">
+                        <!-- Interactive 3D robot model will be rendered here via JavaScript -->
+                    </div>
+                    <div class="component-indicators">
+                        <div class="indicator" data-component="sensors">Sensors</div>
+                        <div class="indicator" data-component="actuators">Actuators</div>
+                        <div class="indicator" data-component="controllers">Controllers</div>
+                        <div class="indicator" data-component="end-effectors">End Effectors</div>
+                    </div>
+                </div>
+                
+                <div class="component-details">
+                    <div class="component-info active" id="sensors">
+                        <h3>Sensors and Vision Systems</h3>
+                        <p>Sensors provide robots with environmental awareness:</p>
+                        <ul>
+                            <li>Machine vision cameras</li>
+                            <li>3D depth sensors</li>
+                            <li>LiDAR systems</li>
+                            <li>Force/torque sensors</li>
+                            <li>Proximity sensors</li>
+                            <li>Tactile sensors</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component-info" id="actuators">
+                        <h3>Actuators and Motion Control</h3>
+                        <p>Actuators enable robot movement and interaction:</p>
+                        <ul>
+                            <li>Servo motors</li>
+                            <li>Stepper motors</li>
+                            <li>Linear actuators</li>
+                            <li>Pneumatic systems</li>
+                            <li>Hydraulic systems</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component-info" id="controllers">
+                        <h3>Control Systems</h3>
+                        <p>Control systems form the brain of robotic operations:</p>
+                        <ul>
+                            <li>Programmable Logic Controllers (PLCs)</li>
+                            <li>Robot Operating System (ROS)</li>
+                            <li>Distributed control systems</li>
+                            <li>Real-time operating systems</li>
+                            <li>Motion control algorithms</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="component-info" id="end-effectors">
+                        <h3>End Effectors and Tooling</h3>
+                        <p>End effectors are the "hands" of robotic systems:</p>
+                        <ul>
+                            <li>Grippers (pneumatic, electric, vacuum)</li>
+                            <li>Tool changers for multi-function capability</li>
+                            <li>Specialized end-of-arm tooling (EOAT)</li>
+                            <li>Force-compliant devices</li>
+                            <li>Welding and cutting tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-container">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Robot Types and Applications</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Different robot types serve various automation needs:</p>
+                        <ul>
+                            <li>Industrial robots for manufacturing and assembly</li>
+                            <li>Collaborative robots (cobots) for human-machine interaction</li>
+                            <li>Mobile robots for material transport and logistics</li>
+                            <li>Autonomous guided vehicles (AGVs) for warehouse operations</li>
+                            <li>Service robots for customer-facing applications</li>
+                            <li>Specialized robots for hazardous environments</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Robot Kinematics</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Kinematics governs robot movement and positioning:</p>
+                        <ul>
+                            <li>Forward and inverse kinematics</li>
+                            <li>Jacobian matrices</li>
+                            <li>Singularity analysis</li>
+                            <li>Workspace mapping</li>
+                            <li>Joint coordination systems</li>
+                            <li>Trajectory optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Path Planning Algorithms</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Path planning enables efficient and safe robot movement:</p>
+                        <ul>
+                            <li>A* algorithm for optimal path finding</li>
+                            <li>Rapidly-exploring Random Trees (RRT)</li>
+                            <li>Potential field methods</li>
+                            <li>Probabilistic roadmaps</li>
+                            <li>Dynamic window approach</li>
+                            <li>Collision avoidance systems</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Artificial Intelligence Integration</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>AI enhances robot capabilities:</p>
+                        <ul>
+                            <li>Machine learning for adaptive control</li>
+                            <li>Computer vision for object recognition</li>
+                            <li>Reinforcement learning for task optimization</li>
+                            <li>Natural language processing for voice commands</li>
+                            <li>Anomaly detection for predictive maintenance</li>
+                            <li>Decision-making algorithms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programming Section -->
+    <section id="programming" class="section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h2>Programming for Automation</h2>
+            </div>
+            <p class="section-intro">Explore the programming languages, libraries, and tools that power modern automation and robotics systems.</p>
+            
+            <div class="language-selector">
+                <button class="language-btn active" data-language="python">Python</button>
+                <button class="language-btn" data-language="c">C Programming</button>
+            </div>
+            
+            <div class="language-content active" id="python-content">
+                <h3>Python Libraries for Automation and Robotics</h3>
+                
+                <div class="code-cards">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>Robot Framework</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>A generic open-source automation framework for acceptance testing and RPA.</p>
+                            <pre><code class="language-python">*** Settings ***
+Library    SeleniumLibrary
+
+*** Test Cases ***
+Example Automation Test
+    Open Browser    https://example.com    chrome
+    Page Should Contain    Example Domain
+    Close Browser</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>PyRobot</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>A Python library for benchmarking and running experiments in robot learning.</p>
+                            <pre><code class="language-python">from pyrobot import Robot
+
+# Initialize robot
+robot = Robot('locobot')
+
+# Move the base
+robot.base.go_to_relative([0.2, 0, 0])
+
+# Move the arm to a target position
+target_joints = [0.408, 0.721, -0.471, -1.4, 0.920]
+robot.arm.set_joint_positions(target_joints)</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>ROS with Python</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>Python bindings for the Robot Operating System (ROS).</p>
+                            <pre><code class="language-python">#!/usr/bin/env python
+import rospy
+from std_msgs.msg import String
+
+def talker():
+    pub = rospy.Publisher('chatter', String, queue_size=10)
+    rospy.init_node('talker', anonymous=True)
+    rate = rospy.Rate(10)  # 10hz
+    while not rospy.is_shutdown():
+        hello_str = "hello world %s" % rospy.get_time()
+        rospy.loginfo(hello_str)
+        pub.publish(hello_str)
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        talker()
+    except rospy.ROSInterruptException:
+        pass</code></pre>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="library-list">
+                    <h4>Other Essential Python Libraries</h4>
+                    <ul class="library-grid">
+                        <li>
+                            <span class="library-name">OpenCV</span>
+                            <span class="library-desc">Computer vision and image processing</span>
+                        </li>
+                        <li>
+                            <span class="library-name">NumPy & SciPy</span>
+                            <span class="library-desc">Scientific computing and data analysis</span>
+                        </li>
+                        <li>
+                            <span class="library-name">TensorFlow & PyTorch</span>
+                            <span class="library-desc">Deep learning for robotics applications</span>
+                        </li>
+                        <li>
+                            <span class="library-name">Pyro</span>
+                            <span class="library-desc">Python Remote Objects for distributed systems</span>
+                        </li>
+                        <li>
+                            <span class="library-name">DART</span>
+                            <span class="library-desc">Dynamic Animation and Robotics Toolkit</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="language-content" id="c-content">
+                <h3>C Programming for Embedded Systems and Robotics</h3>
+                
+                <div class="code-cards">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>Embedded C Fundamentals</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>Direct hardware control for microcontrollers in robotics systems.</p>
+                            <pre><code class="language-c">#include <avr/io.h>
+#include <util/delay.h>
+
+#define LED_PIN PB5
+
+int main(void) {
+    // Set LED pin as output
+    DDRB |= (1 << LED_PIN);
+    
+    while (1) {
+        // Toggle LED
+        PORTB ^= (1 << LED_PIN);
+        
+        // Wait 500ms
+        _delay_ms(500);
+    }
+    
+    return 0;
+}</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>PID Control Implementation</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>Precise motor control using PID algorithms.</p>
+                            <pre><code class="language-c">#include <stdio.h>
+
+// PID constants
+#define KP 2.0
+#define KI 0.5
+#define KD 0.25
+
+// PID variables
+float error = 0;
+float lastError = 0;
+float integral = 0;
+float derivative = 0;
+
+// Calculate PID output
+float calculatePID(float setpoint, float measurement) {
+    // Calculate error
+    error = setpoint - measurement;
+    
+    // Calculate integral
+    integral += error;
+    
+    // Anti-windup
+    if (integral > 100) integral = 100;
+    if (integral < -100) integral = -100;
+    
+    // Calculate derivative
+    derivative = error - lastError;
+    
+    // Calculate output
+    float output = KP * error + KI * integral + KD * derivative;
+    
+    // Save error for next iteration
+    lastError = error;
+    
+    return output;
+}</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <h4>Real-Time Operating Systems (RTOS)</h4>
+                        </div>
+                        <div class="code-card-body">
+                            <p>Task scheduling and management for real-time robotics applications.</p>
+                            <pre><code class="language-c">#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+// Task handle
+TaskHandle_t motorControlTask;
+QueueHandle_t sensorQueue;
+
+// Motor control task
+void vMotorControlTask(void *pvParameters) {
+    int16_t sensorValue;
+    
+    while (1) {
+        // Wait for sensor data
+        if (xQueueReceive(sensorQueue, &sensorValue, portMAX_DELAY) == pdTRUE) {
+            // Process sensor data and control motors
+            if (sensorValue > THRESHOLD) {
+                // Adjust motor speed
+                setMotorSpeed(MOTOR_LEFT, sensorValue);
+            }
+        }
+    }
+}
+
+int main(void) {
+    // Initialize hardware
+    initHardware();
+    
+    // Create queue for sensor data
+    sensorQueue = xQueueCreate(10, sizeof(int16_t));
+    
+    // Create motor control task
+    xTaskCreate(
+        vMotorControlTask,
+        "MotorControl",
+        configMINIMAL_STACK_SIZE,
+        NULL,
+        tskIDLE_PRIORITY + 1,
+        &motorControlTask
+    );
+    
+    // Start the scheduler
+    vTaskStartScheduler();
+    
+    // Should never reach here
+    return 0;
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="library-list">
+                    <h4>Key C Programming Areas for Robotics</h4>
+                    <ul class="library-grid">
+                        <li>
+                            <span class="library-name">Sensor Interfacing</span>
+                            <span class="library-desc">I2C, SPI, and UART communication with sensors</span>
+                        </li>
+                        <li>
+                            <span class="library-name">Motor Control</span>
+                            <span class="library-desc">PWM generation and feedback processing</span>
+                        </li>
+                        <li>
+                            <span class="library-name">Communication Protocols</span>
+                            <span class="library-desc">Implementing low-level communication</span>
+                        </li>
+                        <li>
+                            <span class="library-name">Memory Management</span>
+                            <span class="library-desc">Efficient resource utilization in embedded systems</span>
+                        </li>
+                        <li>
+                            <span class="library-name">Safety-Critical Systems</span>
+                            <span class="library-desc">Implementing fault-tolerant mechanisms</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Projects & Updates Section -->
+    <section id="future-projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2>Future Projects & Updates</h2>
+            </div>
+            <p class="section-intro">Stay informed about upcoming technologies, research areas, and developments in automation engineering.</p>
+            
+            <div class="timeline">
+                <div class="timeline-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="research">Research</button>
+                    <button class="filter-btn" data-filter="tools">Tools</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+                
+                <div class="timeline-items">
+                    <div class="timeline-item" data-category="research">
+                        <div class="timeline-date">
+                            <span>Q3 2025</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Advanced AI Integration in Robotics</h3>
+                            <p>Research on integrating advanced AI algorithms with robotic systems for enhanced decision-making and autonomy.</p>
+                            <span class="timeline-tag research">Research</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-category="tools">
+                        <div class="timeline-date">
+                            <span>Q4 2025</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Next-Gen PLC Development Kit</h3>
+                            <p>Release of a comprehensive development kit for next-generation PLCs with enhanced connectivity and processing capabilities.</p>
+                            <span class="timeline-tag tools">Tools</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-category="events">
+                        <div class="timeline-date">
+                            <span>Q1 2026</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Global Automation Summit</h3>
+                            <p>International conference bringing together experts in automation, robotics, and AI to discuss future trends and innovations.</p>
+                            <span class="timeline-tag events">Events</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-category="research">
+                        <div class="timeline-date">
+                            <span>Q2 2026</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Human-Robot Collaboration Framework</h3>
+                            <p>Development of a standardized framework for safe and efficient human-robot collaboration in industrial settings.</p>
+                            <span class="timeline-tag research">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="newsletter-signup">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter to receive the latest updates on automation engineering technologies and projects.</p>
+                <form class="signup-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Automation Engineering Hub</h3>
+                    <p>Your comprehensive resource for automation engineering, mechanical engineering, robotics, and programming.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#automation">Automation Tools</a></li>
+                        <li><a href="#mechanical">Mechanical Engineering</a></li>
+                        <li><a href="#robotics">Robotics Systems</a></li>
+                        <li><a href="#programming">Programming</a></li>
+                        <li><a href="#future-projects">Future Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Automation Engineering Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
